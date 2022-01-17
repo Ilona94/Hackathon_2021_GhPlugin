@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ilona.Laskowska\\GhPlugins\\team2\\DesigncheckGHOffline\\DesigncheckGHOffline.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ilona.Laskowska\\GhPlugins\\team2\\DesigncheckGHOffline\\DesigncheckGHOffline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ilona.Laskowska\\GhPlugins\\team2\\DesigncheckGHOffline\\DesigncheckGHOffline.csproj",
+        "projectName": "DesigncheckGHOffline",
+        "projectPath": "C:\\Users\\Ilona.Laskowska\\GhPlugins\\team2\\DesigncheckGHOffline\\DesigncheckGHOffline.csproj",
+        "packagesPath": "C:\\Users\\Ilona.Laskowska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ilona.Laskowska\\GhPlugins\\team2\\DesigncheckGHOffline\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Ilona.Laskowska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/arupcomputedevops/_packaging/arupcomputedevops@Release/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "Grasshopper": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.31.20315.17001, )"
+            },
+            "RhinoCommon": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.31.20315.17001, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Grasshopper/6.31.20315.17001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[6.31.20315.17001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {},
+          "lib/net45/Grasshopper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/net45/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/6.31.20315.17001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {},
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/net45/RhinoCommon.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win": {
+      "Grasshopper/6.31.20315.17001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[6.31.20315.17001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {},
+          "lib/net45/Grasshopper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/net45/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/6.31.20315.17001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {},
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/net45/RhinoCommon.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x64": {
+      "Grasshopper/6.31.20315.17001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[6.31.20315.17001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {},
+          "lib/net45/Grasshopper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/net45/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/6.31.20315.17001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {},
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/net45/RhinoCommon.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x86": {
+      "Grasshopper/6.31.20315.17001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[6.31.20315.17001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {},
+          "lib/net45/Grasshopper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/net45/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/6.31.20315.17001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {},
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/net45/RhinoCommon.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grasshopper/6.31.20315.17001": {
+      "sha512": "+EH76xuJOq8O36vVO1G53w9cRe5U62RZFD1xzb6IKvr2vdM5crOzHzGFt1flG1qzo+8LDNp9fe9i/0J2IMLWjQ==",
+      "type": "package",
+      "path": "grasshopper/6.31.20315.17001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/Grasshopper.targets",
+        "grasshopper.6.31.20315.17001.nupkg.sha512",
+        "grasshopper.nuspec",
+        "grasshopper.png",
+        "lib/net45/GH_IO.XML",
+        "lib/net45/GH_IO.dll",
+        "lib/net45/Grasshopper.dll",
+        "lib/net45/Grasshopper.xml"
+      ]
+    },
+    "RhinoCommon/6.31.20315.17001": {
+      "sha512": "fcCaQGTPNwTTp+w46TlgjvkxMmomBLljdbE8HSAldEnaAhQ5vN43asjteDbixQOSuZAdDYwf098XUquKVqPlzg==",
+      "type": "package",
+      "path": "rhinocommon/6.31.20315.17001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/net45/RhinoCommon.targets",
+        "lib/net45/Eto.dll",
+        "lib/net45/Eto.xml",
+        "lib/net45/Rhino.UI.dll",
+        "lib/net45/RhinoCommon.XML",
+        "lib/net45/RhinoCommon.dll",
+        "rhinocommon.6.31.20315.17001.nupkg.sha512",
+        "rhinocommon.nuspec",
+        "rhinocommon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "Grasshopper >= 6.31.20315.17001",
+      "RhinoCommon >= 6.31.20315.17001"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ilona.Laskowska\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ilona.Laskowska\\GhPlugins\\team2\\DesigncheckGHOffline\\DesigncheckGHOffline.csproj",
+      "projectName": "DesigncheckGHOffline",
+      "projectPath": "C:\\Users\\Ilona.Laskowska\\GhPlugins\\team2\\DesigncheckGHOffline\\DesigncheckGHOffline.csproj",
+      "packagesPath": "C:\\Users\\Ilona.Laskowska\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ilona.Laskowska\\GhPlugins\\team2\\DesigncheckGHOffline\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Ilona.Laskowska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/arupcomputedevops/_packaging/arupcomputedevops@Release/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "Grasshopper": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[6.31.20315.17001, )"
+          },
+          "RhinoCommon": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[6.31.20315.17001, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
